@@ -48,17 +48,23 @@ h1 {
 
 p {
   line-height: 1.75em;
+    
 }
 
 .about p:nth-of-type(1) { 
   font-size: 1.5em; /* 24/16 */
   line-height: 1.5em;
+ 
 }
 
 .about p {
   padding-bottom: 20px;
   text-align: justify;
 }
+
+
+
+
 
 footer p {
   text-align: center;
@@ -105,8 +111,8 @@ a:hover {
 /* Images */
 
 .background {
-   /* Delete background class from <body> for a vanilla style */
-   background: url(../images/background.jpg) top center no-repeat;
+   
+   background: url(../images/eyes.jpg) top center no-repeat;
 }
 
 img.avatar {
@@ -115,7 +121,9 @@ img.avatar {
   width: 125px;
   height: 125px;
   margin-top: -30px;
+
 }
+/*1920 1280*/
 
 .social li img {
   width: 50px;
@@ -124,11 +132,12 @@ img.avatar {
 /* Layout */
 
 .container {
-  width: 600px;
+  width:1000px;
   margin: 100px auto 25px;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 0 60px 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0 60px 5px;
   border-radius: 6px;
+
 }
 
 .social {
@@ -176,3 +185,12 @@ footer {
     text-align: center;
   }
 }
+
+
+.head {
+    text align: center; 
+ width:90%; 
+margin: auto;
+padding-left: 32.5em;
+padding-top: 4em;
+padding-bottom: 7em;}
